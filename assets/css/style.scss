@@ -46,8 +46,8 @@ a.navbar-item.is-active {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 
     &::before {
-        filter: blur(0.15rem);
-        background-image: url({{site.heroimage}});
+        filter: brightness(0.5);
+        background-image: url(../images/mrfigs.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -57,7 +57,7 @@ a.navbar-item.is-active {
         bottom: 0px;
         left: 0px;
         position: absolute;
-        opacity: 0.25;
+        opacity: 0.75;
         content: "";
     }
 }
